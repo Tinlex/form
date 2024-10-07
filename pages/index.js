@@ -11,7 +11,7 @@ export default function Home() {
     // Execute the embed handler when the script is loaded
     script.onload = () => {
       window.jotformEmbedHandler(
-        "iframe[id='JotFormIFrame-242784513981364']",
+        "iframe[id='JotFormIFrame-242801698872468']",
         "https://form.jotform.com/"
       );
     };
@@ -30,7 +30,7 @@ export default function Home() {
           title="Submit Your Application for the Game Designer Role"
           onLoad={() => window.parent.scrollTo(0, 0)}
           allow="geolocation; microphone; camera; fullscreen"
-          src="https://form.jotform.com/242784513981364"
+          src="https://form.jotform.com/242801698872468"
           onSubmit={() => console.log("hey")}
           frameBorder="0"
           style={{
