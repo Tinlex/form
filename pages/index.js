@@ -24,7 +24,14 @@ export default function Home() {
 
   return (
     <>
-      <div style={{ width: "100%", maxWidth: "100%", height: "539px" }}>
+      <div
+        style={{
+          width: "100%",
+          maxWidth: "100%",
+          minHeight: "auto",
+          height: "1500px",
+        }}
+      >
         <iframe
           id="JotFormIFrame-242784513981364"
           title="Submit Your Application for the Game Designer Role"
@@ -36,8 +43,8 @@ export default function Home() {
           style={{
             minWidth: "100%",
             maxWidth: "100%",
-            height: "539px",
             border: "none",
+            height: "2500px",
           }}
           scrolling="no"
         ></iframe>
